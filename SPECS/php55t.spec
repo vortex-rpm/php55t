@@ -71,7 +71,7 @@
 Summary: PHP scripting language for creating dynamic web sites
 Name: %{name}
 Version: 5.5.10
-Release: 1.vortex%{?dist}
+Release: 2.vortex%{?dist}
 # All files licensed under PHP version 3.01, except
 # Zend is licensed under Zend
 # TSRM is licensed under BSD
@@ -1728,6 +1728,9 @@ exit 0
 
 
 %changelog
+* Fri Oct 23 2015 Ilya Otyutskiy <ilya.otyutskiy@icloud.com> - 5.5.10-2.vortex
+- Rebuilt with newer curl.
+
 * Fri Apr  4 2014 Ilya Otyutskiy <ilya.otyutskiy@icloud.com> - 5.5.10-1.vortex
 - Compile with zts support.
 
